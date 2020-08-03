@@ -11,7 +11,7 @@ export default [
     },
     {
         name: 'lang',
-        image: '',
+        image: 'lang',
         module: 'main',
         description: {
             en: 'I can speak several languages (ru, en) <br>' +
@@ -23,7 +23,7 @@ export default [
     },
     {
         name: 'prefix',
-        image: '',
+        image: 'prefix',
         module: 'main',
         description: {
             en: '- The standard prefix is used on servers `.a` But you can change it using this command<br>' +
