@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Grid, Hidden} from "@material-ui/core";
+import {Button, Grid} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 
 const useStyle = makeStyles({
@@ -13,16 +13,14 @@ const Buttons = () => {
 
     return (
         <Grid container spacing={1}>
-            <Hidden xsDown>
-                <Grid item>
-                    <Button
-                        className={style.addButton}
-                        href={'https://discordapp.com/api/oauth2/authorize?client_id=660128781670940695&scope=bot&permissions=8'}
-                        color={"primary"}
-                        variant={"contained"}
-                    >Add ahri to your server</Button>
-                </Grid>
-            </Hidden>
+            <Grid item>
+                <Button
+                    className={style.addButton}
+                    href={'https://discordapp.com/api/oauth2/authorize?client_id=660128781670940695&scope=bot&permissions=8'}
+                    color={"primary"}
+                    variant={"contained"}
+                >Add ahri to your server</Button>
+            </Grid>
             <Grid item>
                 <Button
                     href={'https://discord.gg/hTSA5nk'}
